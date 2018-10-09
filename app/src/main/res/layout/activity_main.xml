@@ -1,106 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-   xmlns:app="http://schemas.android.com/apk/res-auto"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:orientation="vertical">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.vmac.WatBot.MainActivity"
+    android:background="#fff">
 
-    <LinearLayout
+    <Toolbar
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:textAlignment="center"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:id="@+id/base"
-        android:padding="10dp"
-        android:background="#0285ff">
+        android:layout_height="75dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:background="@drawable/action"/>
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_gravity="center"
-            android:src="@drawable/leftarrow"
-            android:paddingRight="5dp"/>
+    <include layout="@layout/content_chat_room" />
 
-        <ImageView
-            android:layout_width="55dp"
-            android:layout_height="55dp"
-            android:layout_gravity="center"
-            android:src="@drawable/userimage"
-
-            android:layout_marginLeft="25dp"
-            android:layout_marginRight="10dp"
-            />
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_weight="2">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Carol"
-                android:textColor="#fff"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Online agora"
-                android:textColor="#fff"/>
-        </LinearLayout>
-
-        <ImageView
-            android:layout_width="150dp"
-            android:layout_height="match_parent"
-            android:src="@drawable/icons"/>
-    </LinearLayout>
-
-    <ImageSwitcher
-        android:layout_width="match_parent"
-        android:layout_height="300dp"
-        ></ImageSwitcher>
-
-    <TextView
-        android:id="@+id/pergunta"
-        style="@style/Pergunta"
-        android:text="A pergunta"/>
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_gravity="center">
-
-        <Button
-            android:id="@+id/r1"
-            style="@style/Respostas"
-            android:text="Não"/>
-
-        <Button
-            android:id="@+id/r2"
-            style="@style/Respostas"
-            android:text="Sim"/>
-
-        <Button
-            android:id="@+id/r3"
-            style="@style/Respostas"
-            android:text="Não"/>
-
-        <Button
-            android:id="@+id/r4"
-            style="@style/Respostas"
-            android:text="Sim"/>
-
-    </LinearLayout>
-
-
-
-
-
-</LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

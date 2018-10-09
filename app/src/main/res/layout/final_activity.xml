@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.vmac.WatBot.FinalActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:orientation="vertical"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:paddingBottom="55dp"
+            android:paddingTop="45dp"
+            android:background="@drawable/backgorundtrafico">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Você está "
+                android:textAlignment="center"
+                android:textSize="35sp"
+                android:textColor="#fff"
+                />
+
+            <TextView
+                android:id="@+id/porcentagem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="75%"
+                android:textAlignment="center"
+                android:textSize="55sp"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="sucetivel a ser aliciada ao Tráfico de Pessoas"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textColor="#fff"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:paddingBottom="40dp"
+            android:paddingTop="25dp"
+            android:background="@color/colorPrimaryDark">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="O tráfico de pessoas é o terceio tráfico que mais movimenta dinheiro no mundo."
+                android:textColor="#fff"
+                android:textAlignment="center"
+                android:paddingTop="10dp"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sendo ele principalmente para trabalho escravo ou exploração sexual."
+                android:textColor="#fff"
+                android:textAlignment="center"
+                android:paddingTop="10dp"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A vítima é seduzida por motivos financeiros, sonhos ou melhora de vida"
+                android:textColor="#fff"
+                android:paddingTop="10dp"
+                android:textAlignment="center"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="As propostas sempre são tentadoras e normalmente realizado por pessoas que passam confiança"
+                android:textColor="#fff"
+                android:paddingTop="10dp"
+                android:textAlignment="center"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:paddingBottom="55dp"
+        android:paddingTop="25dp"
+        android:background="#52a2bc">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Como não cair nessa!"
+            android:textColor="#fff"
+            android:paddingTop="10dp"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" - Evite compartilhar informações pessoais com pessoas que acabou de conhecer. "
+            android:textColor="#fff"
+            android:paddingTop="10dp"
+            android:textAlignment="center"
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" - Pesquise sobre a empresa ou oportunidade"
+            android:textColor="#fff"
+            android:paddingTop="10dp"
+            android:textAlignment="center"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" - Nunca envie documentos ou copiar para outras pessoas."
+            android:textColor="#fff"
+            android:paddingTop="10dp"
+            android:textAlignment="center"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:orientation="vertical"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:paddingBottom="55dp"
+        android:paddingTop="25dp"
+        android:background="@drawable/blue">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Em caso de suspeita"
+            android:textColor="#000000"
+            android:paddingTop="10dp"
+            android:textAlignment="center"
+            android:textSize="35sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Disque 100 ou 180"
+            android:textColor="#000000"
+            android:paddingTop="10dp"
+            android:textAlignment="center"
+            android:textSize="35sp"/>
+
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>

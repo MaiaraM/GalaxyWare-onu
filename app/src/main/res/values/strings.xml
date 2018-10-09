@@ -1,9 +1,4 @@
 <resources>
-    <string name="app_name">TrafFuture</string>
-
-    <string name="title_activity_splash">SplashActivity</string>
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
-    <string name="seta"><![CDATA[<]]></string>
-    <string name="pagina_inicial">Página Inicial(2)</string>
+    <string name="app_name"></string>
+    <string name="what_s_on_your_mind">Enter your query</string>
 </resources>
