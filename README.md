@@ -14,7 +14,7 @@ A partir de um panfleto iremos divulgar o aplicativos para os jovens
 'Telas do Aplicativo
 
 <p aling="center">
-	<img height="500" width="350" src="https://user-images.githubusercontent.com/40842310/46643822-25ff9b80-cb54-11e8-9d3c-7f43183989d4.jpg"/>
+	<img height="300" width="180" src="https://user-images.githubusercontent.com/40842310/46643822-25ff9b80-cb54-11e8-9d3c-7f43183989d4.jpg"/>
 	
 </p>
 
